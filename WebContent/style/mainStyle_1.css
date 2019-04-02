@@ -1,0 +1,50 @@
+body{
+	margin : 0px;
+	padding : 0px;
+	background-image: url("background.jpg");
+	background-size: 1400px;
+	font-family: "Times New Roman"
+}
+
+.marquee{
+	position: relative;
+    animation: mymove 10s infinite;
+    animation-delay: 1s;
+    font-size : 30px;
+    font-family : Times;
+    color : white;
+    float : left;
+    width : 100%;
+    margin-top : 10px;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 100%;}
+}
+
+.sidebar{
+	float : left;
+	width : 35%;
+	height : 500px;
+
+}
+
+.loginbtn{
+	margin-left : 60px;
+	margin-top : 50px;
+}
+
+.slideshow{
+	float : left;
+	width : 60%;
+	margin-right : 5%;
+	margin-top : 60px;
+	
+
+}
+
+.footer{
+	width : 100%;
+	float : left;
+}
